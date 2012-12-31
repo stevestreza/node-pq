@@ -1,6 +1,3 @@
-pq
-==
-
 `pq` is a lightweight priority job queue in node.js. It's meant to be easy to read and use. Once you start a worker, it runs for as long as the process runs. Jobs are queued and run asynchronously, and can have optional priorities, which are arbitrary integers. Workers can run one (by default) or many jobs at the same time (although node.js by itself can only run on one thread, so it's more for I/O than true concurrency). Workers can optionally return results back to the caller, even if they're in separate processes.
 
 Dependencies
