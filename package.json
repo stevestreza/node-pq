@@ -1,0 +1,22 @@
+{
+	"name": "pq",
+	"version": "0.0.1",
+	"description": "A Redis-backed job queue with priority",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amazingsyco/node-pq.git"
+	},
+	"keywords": [
+		"redis",
+		"job",
+		"queue",
+		"priority"
+	],
+	"dependencies": {
+		"redis": ">= 0.8.2",
+		"async": ">= 0.1.22"	
+	},
+	"author": "Steve Streza",
+	"license": "BSD"
+}
